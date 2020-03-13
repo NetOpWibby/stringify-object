@@ -1,0 +1,7 @@
+# Folders
+.nyc_output
+coverage
+src
+
+# Files
+tsconfig.json
