@@ -4,25 +4,25 @@
     "url": "https://webb.page"
   },
   "dependencies": {
-    "@webb/console": "^2020.3.10",
+    "@webb/console": "^2020.3.29",
     "get-own-enumerable-property-symbols": "^3.0.2",
     "is-obj": "^2.0.0",
     "is-regexp": "^2.1.0"
   },
   "description": "Stringify an Object/Array like JSON.stringify, but the way you want it",
   "devDependencies": {
-    "@webb/config-nyc": "^2020.3.1-0.2",
-    "@webb/config-prettier": "^2020.3.9",
-    "@webb/test": "^2020.3.11",
+    "@webb/config-nyc": "^2020.3.29",
+    "@webb/config-prettier": "^2020.3.29",
+    "@webb/test": "^2020.3.29",
     "chronver": "^2020.3.9",
     "del-cli": "^3.0.0",
     "eslint": "^6.8.0",
     "husky": "^4.2.3",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.19.1",
-    "ts-node": "^8.6.2",
+    "prettier": "^2.0.2",
+    "ts-node": "^8.8.1",
     "typescript": "^3.8.3",
-    "updates": "^10.2.2"
+    "updates": "^10.2.6"
   },
   "homepage": "https://code.webb.page/Webb/stringify-object",
   "husky": {
@@ -50,5 +50,5 @@
     "test:coverage": "nyc npm run test:assert"
   },
   "types": "dist/index.d.ts",
-  "version": "2020.03.13"
+  "version": "2020.03.29"
 }
